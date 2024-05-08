@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Text Translator App</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <script src="./languages.js"></script>
+  </head>
+  <body>
+    <div class="translator-container">
+      <div>Text Translator App</div>
+
+      <select id="fromLanguage">
+        <option value="fr">French</option>
+        <!-- Add more language options here in my script.js-->
+      </select>
+
+      <textarea id="textInput" placeholder="Enter text to translate"></textarea>
+
+      <button id="translateButton">Translate</button>
+
+      <select id="toLanguage">
+        <option value="es">Spanish</option>
+        <!-- Add more language options here in my script.js-->
+      </select>
+
+      <div id="translatedText"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
